@@ -14,3 +14,7 @@ print(df.list2.mean())
 df.list1.min()
 df.list2.max()
 print(df.list2.max())
+
+df.list1.describe()
+
+print(df.list1.describe())
