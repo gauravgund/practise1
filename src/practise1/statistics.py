@@ -6,4 +6,11 @@ list2 = [3, 4, 5, 6, 7]
 
 df = pd.DataFrame({'list1': list1, 'list2': list2})
 
-print(df.head(3))
+df.list1.mean()
+df.list2.mean()
+
+print(df.list2.mean())
+
+df.list1.min()
+df.list2.max()
+print(df.list2.max())
